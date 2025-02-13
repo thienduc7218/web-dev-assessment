@@ -86,12 +86,12 @@ Test library used:
 - **Testing tool**: React Testing Library, Jest 
 
 ## 📷 Preview
-**Typeahead**\
+**Typeahead**
 
-**Search result**\
+**Search result**
 
 ### Responsiveness
 
-**Typeahead mobile**\
+**Typeahead mobile**
 
-**Search result mobile**\
+**Search result mobile**
