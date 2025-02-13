@@ -37,11 +37,11 @@ const Search = () => {
     }
 
     return (
-        <>
+        <div className="*:px-10 *:lg:px-60">
             <Header onSearch={handleSearch} />
             {error && <p className="text-red-500">{error}</p>}
             {result && <SearchResult result={result} />}
-        </>
+        </div>
     )
 }
 

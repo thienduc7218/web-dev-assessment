@@ -94,7 +94,7 @@ const InputSearch = ({ onSearch }: SearchInputProps) => {
                     setSuggestions([]);
                     setSelectedIndex(-1);
                 }
-                onSearch(searchTerm);
+                if (searchTerm) onSearch(searchTerm);
                 break;
             case 'Escape':
                 setSuggestions([]);
@@ -104,7 +104,7 @@ const InputSearch = ({ onSearch }: SearchInputProps) => {
     };
 
     return (
-        <div className="relative flex items-center px-60 py-10">
+        <div className="relative flex items-center py-10">
             <div className="w-full relative">
                 <input
                     type="text"

@@ -7,12 +7,10 @@ interface HeaderProps {
 
 const Header = ({ onSearch }: HeaderProps) => {
     return (
-        <>
-            <div className="shadow-md">
-                <Banner />
-                <InputSearch onSearch={onSearch} />
-            </div>
-        </>
+        <div className="shadow-md">
+            <Banner />
+            <InputSearch onSearch={onSearch} />
+        </div>
     )
 }
 
