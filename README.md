@@ -1,10 +1,10 @@
-# Web Dev Tech Assignment for GovTech 2025
+# Web Dev Tech Assignment
 
 This project is a mock Search Engine, built with ReactJS and Typescript, built with Vite, with automated testing for quality assurance.
 
 ## 💻 Table of Contents
 
-- [Web Dev Tech Assignment for GovTech 2025](#web-dev-tech-assignment-for-govtech-2025)
+- [Web Dev Tech Assignment](#web-dev-tech-assignment)
   - [💻 Table of Contents](#-table-of-contents)
   - [🗄️ Project Structure](#️-project-structure)
   - [⚙️ Installation](#️-installation)

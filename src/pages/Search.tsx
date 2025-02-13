@@ -32,7 +32,6 @@ const Search = () => {
             setError(response.error);
         }
 
-        await new Promise((resolve) => setTimeout(resolve, 1000));
 
         setResult(response.data);
     }
