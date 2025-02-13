@@ -104,7 +104,7 @@ const InputSearch = ({ onSearch }: SearchInputProps) => {
     };
 
     return (
-        <div className="relative flex items-center py-10">
+        <div className="relative flex items-center px-10 lg:px-60 py-10">
             <div className="w-full relative">
                 <input
                     type="text"

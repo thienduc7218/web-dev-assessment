@@ -6,7 +6,7 @@ interface SearchResultProps {
 
 const SearchResult = ({ result }: SearchResultProps) => {
     return (
-        <div className=" py-1">
+        <div className="px-10 lg:px-60 py-1">
             <p className="font-bold py-8 text-xl">
                 Showing {result.Page}-{result.PageSize} of {result.TotalNumberOfResults}{" "}
                 results
