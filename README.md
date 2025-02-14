@@ -77,7 +77,7 @@ Open your browser and go to http://localhost:5173
    ```bash
    npm run test
    ```
-   
+
 ![Unit Tests](images/unit-test-vitest.png)
 Test library used:
 - [Vitest](https://vitest.dev/)
@@ -86,7 +86,7 @@ Test library used:
 ## 🧱 Technologies Used
 - **Frontend**: ReactJS, Typescript
 - **Build tool**: Vite
-- **Testing tool**: React Testing Library, Jest 
+- **Testing tool**: React Testing Library, Vitest 
 
 ## 📷 Preview
 **Header**
