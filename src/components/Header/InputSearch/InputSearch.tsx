@@ -141,7 +141,10 @@ const InputSearch = ({ onSearch }: SearchInputProps) => {
             </div>
             <button
                 className="w-3xs z-10 py-2 bg-[#1D76D5] text-white rounded-lg hover:bg-blue-600 transition-colors"
-                onClick={() => searchTerm && onSearch(searchTerm)}
+                onClick={() => {
+                    setSuggestions([])
+                    if (searchTerm) onSearch(searchTerm)
+                }}
             >
                 Search
             </button>
