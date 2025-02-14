@@ -16,6 +16,7 @@ This project is a mock Search Engine, built with ReactJS and Typescript, built w
     - [Responsiveness](#responsiveness)
 
 
+
 ## 🗄️ Project Structure
 ```
 ├── src
@@ -76,8 +77,10 @@ Open your browser and go to http://localhost:5173
    ```bash
    npm run test
    ```
+   
+![Unit Tests](images/unit-test-vitest.png)
 Test library used:
-- [Jest](https://jestjs.io/)
+- [Vitest](https://vitest.dev/)
 - [React Testing Library](https://testing-library.com/)
 
 ## 🧱 Technologies Used
@@ -86,12 +89,16 @@ Test library used:
 - **Testing tool**: React Testing Library, Jest 
 
 ## 📷 Preview
-**Typeahead**
+**Header**
+![Header](images/input-search-web.png)
 
 **Search result**
+![Search result](images/search-result-web.png)
 
 ### Responsiveness
 
-**Typeahead mobile**
+**Header**
+![Header](images/input-search-responsive.png)
 
 **Search result mobile**
+![Search result](images/search-result-responsive.png)
